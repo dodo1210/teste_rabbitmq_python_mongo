@@ -1,0 +1,1 @@
+# teste_rabbitmq_python_mongo
