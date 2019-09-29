@@ -12,13 +12,7 @@ channel.queue_declare(queue='hello')
 
 def callback(ch, method, properties, body):
     
-    write = base64.b64decode(body)
-    filename = 'file2.json' 
-    with open(filename, 'wb') as file:
-        file.write(write)
-    print(" [x] Received %r" % body)
-
-    data = []
+    data = body
     with open('file2.json') as json_file:
         data = json.load(json_file)
 
