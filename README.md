@@ -14,8 +14,8 @@ Esta aplicação realiza o envio de um arquivo json pelo rabbitmq e salva as inf
 <p>base64</p>
 
 <h3>Ordem para executação:</h3>
-<p>1- recieve.py</p>
-<p>2- send.py</p>
-<p>3- show.py</p>
+<p>1- receber.py</p>
+<p>2- enviar.py</p>
+<p>3- mostrar.py</p>
 
 
