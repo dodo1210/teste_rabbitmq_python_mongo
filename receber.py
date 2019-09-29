@@ -12,9 +12,8 @@ channel.queue_declare(queue='hello')
 
 def callback(ch, method, properties, body):
     
-    data = body
-    with open('file2.json') as json_file:
-        data = json.load(json_file)
+    data = json.loads(body)
+    print(body)
 
     client = MongoClient("mongodb://localhost:27017/")
     mydatabase = client['teste']
