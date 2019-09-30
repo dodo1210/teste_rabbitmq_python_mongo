@@ -1,6 +1,6 @@
 <h1> Python Teste</h1>
 
-Esta aplicação realiza o envio de um arquivo json pelo rabbitmq e salva as informações do json no Mongodb.
+Esta aplicação realiza o envio do contúdo de um arquivo json pelo rabbitmq através do cloudamqp e salva as informações do json no Mongodb.
 
 <h3>Aplicações necessárias:</h3>
 <p>Rabbitmq;</p>
