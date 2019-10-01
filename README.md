@@ -6,6 +6,7 @@ Esta aplicação realiza o envio do contúdo de um arquivo json pelo rabbitmq at
 <p>Rabbitmq;</p>
 <p>Python</p>
 <p>Mongodb</p>
+<p>ast</p>
 
 <h3>Instalar as bibliotecas:</h3> 
 <p>pika;</p>
