@@ -15,5 +15,5 @@ for x in mycol.find():
     cont+=1
   #apresenta apenas id
   pp.pprint(x["_id"])
-#resultado da quantidade de resquisições do método POST
+#quantidade de resquisições do método POST
 print(cont)
