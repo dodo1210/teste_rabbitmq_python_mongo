@@ -11,6 +11,7 @@ Esta aplicação realiza o envio do contúdo de um arquivo json pelo rabbitmq at
 <p>pika;</p>
 <p>json;</p>
 <p>pymongo;</p>
+<p>urllib</p>
 <p>ast</p>
 
 <h3>Ordem para executação:</h3>
